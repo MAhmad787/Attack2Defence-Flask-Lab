@@ -1,4 +1,4 @@
-# 🖥️ Flask Attendance System Deployment on Ubuntu Server
+#  Flask Attendance System Deployment on Ubuntu Server
 
 ## Description
 
@@ -6,7 +6,7 @@ This project demonstrates how to deploy a Flask-based attendance system on an Ub
 
 ---
 
-## 🔧 Steps to Deploy Flask App
+## Steps to Deploy Flask App
 
 ### 1. Install Ubuntu Server on my machine
 
@@ -165,7 +165,7 @@ sudo systemctl status nginx
 
 ---
 
-### ✅ Outcome
+### Outcome
 
 Now every time I start the server and type the IP address of it I can access the app, because I have enabled the services that will run automatically.
 
