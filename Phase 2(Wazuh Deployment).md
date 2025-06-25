@@ -22,7 +22,7 @@ It supports a wide range of deployment options — containers, cloud environment
 - Acts as a search and analytics engine.
 - Supports filtering and full-text search.
 
-![Wazuh Indexer](image-placeholder)
+
 
 ---
 
@@ -30,7 +30,7 @@ It supports a wide range of deployment options — containers, cloud environment
 - Core engine that processes data from agents, network devices, APIs, etc.
 - Applies rulesets to detect anomalies and generate alerts.
 
-![Wazuh Server](image-placeholder)
+
 
 ---
 
@@ -38,7 +38,7 @@ It supports a wide range of deployment options — containers, cloud environment
 - Visual interface showing real-time data via graphs, charts, and tables.
 - Displays logs and alerts in a clean, readable format.
 
-![Wazuh Dashboard](image-placeholder)
+
 
 ---
 
@@ -47,7 +47,7 @@ It supports a wide range of deployment options — containers, cloud environment
 - Collects logs, telemetry, and system data.
 - Works across multiple OS platforms.
 
-![Wazuh Agent](image-placeholder)
+
 
 ---
 
@@ -94,7 +94,7 @@ https://<VM_IP_ADDRESS>
 
 Use credentials from the extracted file.
 
-![Wazuh Dashboard Login](image-placeholder)
+
 
 ---
 
@@ -126,7 +126,7 @@ apt-get install wazuh-agent
 
 📝 **Note**: Ensure the agent version is equal to or lower than the server for compatibility. You may disable updates afterward.
 
-![Agent Installation](image-placeholder)
+
 
 ---
 
@@ -152,7 +152,7 @@ Add inside the `<client>` block:
 </client>
 ```
 
-![ossec.conf](image-placeholder)
+
 
 ---
 
@@ -168,7 +168,7 @@ sudo /var/ossec/bin/manage_agents
 * Enter agent name and IP.
 * Copy the generated key.
 
-![Add Agent](image-placeholder)
+
 
 ---
 
@@ -183,7 +183,7 @@ sudo /var/ossec/bin/manage_agents
 * Press `I` to import a key.
 * Paste the key copied from the server.
 
-![Import Key](image-placeholder)
+
 
 ---
 
@@ -199,5 +199,5 @@ sudo systemctl restart wazuh-agent
 
 Log into the Wazuh Dashboard and confirm the agent is active.
 
-![Agent Active Dashboard](image-placeholder)
+
 
